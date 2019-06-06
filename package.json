@@ -1,0 +1,19 @@
+{
+  "name": "jsonserver",
+  "version": "1.0.0",
+  "description": "Sample api test famework for testing fake api",
+  "main": "index.js",
+  "scripts": {
+    "json:server": "json-server --watch db.json",
+    "cypress": "./node_modules/.bin/cypress",
+    "cypress:open": "$(npm bin)/cypress open"
+  },
+  "author": "Hannah Olujekun",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.15.0"
+  },
+  "devDependencies": {
+    "cypress": "^3.3.1"
+  }
+}
